@@ -36,8 +36,6 @@ const filepath = "tmp/answer.json";
 
   fs.writeFileSync(filepath, JSON.stringify(data));
 
-  fs.createReadStream(filepath);
-
   const formData = new FormData();
   formData.append("answer", fs.createReadStream(filepath), "answer.json");
 
