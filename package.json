@@ -1,0 +1,19 @@
+{
+  "name": "teste-codenation",
+  "version": "1.0.0",
+  "description": "Teste baseado na criptografia de Júlio César",
+  "main": "index.js",
+  "repository": "https://github.com/leandro7792/teste-codenation",
+  "author": "Leandro Carvalho @leandro7792",
+  "license": "MIT",
+  "scripts": {
+    "start": "sucrase-node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "blob": "^0.0.5",
+    "form-data": "^2.5.1",
+    "sha1": "^1.1.1",
+    "sucrase": "^3.10.1"
+  }
+}
